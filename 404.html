@@ -1,35 +1,15 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <script type="text/javascript">
-    var basePath = "/clicker";
-
-    // Если уже на index.html (и не нужно редиректить) — выходим
-    if (window.location.pathname.startsWith(basePath + "/index.html")) {
-      // Уже на нужной странице — ничего не делаем
-      console.log("Already at index.html, skip redirect");
-    } else {
-      // Иначе делаем редирект
-      var redirectTo =
-        window.location.protocol +
-        "//" +
-        window.location.host +
-        basePath +
-        "/index.html?redirect=" +
-        encodeURIComponent(
-          window.location.pathname + window.location.search + window.location.hash
-        );
-
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Перенаправление на index.html с сохранением пути
+      var redirectTo = window.location.protocol + "//" + window.location.host + "/index.html?redirect=" + encodeURIComponent(window.location.pathname + window.location.search + window.location.hash);
       window.location.replace(redirectTo);
-    }
-  </script>
-</head>
-
-<body>
-  <p>Redirecting...</p>
-</body>
-
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
 </html>
