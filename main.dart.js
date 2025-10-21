@@ -24750,7 +24750,7 @@ $S:1}
 A.ajs.prototype={
 $1(a){var s=A.d_().b
 s=s==null?null:s.canvasKitBaseUrl
-return(s==null?"https://www.gstatic.com/flutter-canvaskit/a8bfdfc394deaed5c57bd45a64ac4294dc976a72/":s)+a},
+return(s==null?"https://www.gstatic.com/flutter-canvaskit/d2913632a4578ee4d0b8b1c4a69888c8a0672c4b/":s)+a},
 $S:50}
 A.VF.prototype={
 dQ(a,b){var s,r=this.a
