@@ -5,22 +5,26 @@
   <meta charset="utf-8">
   <title>Redirecting...</title>
   <script type="text/javascript">
-    // Базовый путь Flutter PWA
     var basePath = "/clicker";
 
-    // Формируем URL с учётом basePath
-    var redirectTo =
-      window.location.protocol +
-      "//" +
-      window.location.host +
-      basePath +
-      "/index.html?redirect=" +
-      encodeURIComponent(
-        basePath + window.location.pathname + window.location.search + window.location.hash
-      );
+    // Если уже на index.html (и не нужно редиректить) — выходим
+    if (window.location.pathname.startsWith(basePath + "/index.html")) {
+      // Уже на нужной странице — ничего не делаем
+      console.log("Already at index.html, skip redirect");
+    } else {
+      // Иначе делаем редирект
+      var redirectTo =
+        window.location.protocol +
+        "//" +
+        window.location.host +
+        basePath +
+        "/index.html?redirect=" +
+        encodeURIComponent(
+          window.location.pathname + window.location.search + window.location.hash
+        );
 
-    // Делаем редирект
-    window.location.replace(redirectTo);
+      window.location.replace(redirectTo);
+    }
   </script>
 </head>
 
