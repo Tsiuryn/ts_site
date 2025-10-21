@@ -1,25 +1,15 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Redirecting...</title>
-  <script type="text/javascript">
-    var origin = window.location.origin;
-    var basePath = "/clicker";
-
-    // Проверяем, не в корне ли уже
-    if (!window.location.pathname.startsWith(basePath)) {
-      window.location.replace(origin + basePath);
-    } else {
-      // Например, редиректим любые 404 внутри clicker обратно в /clicker
-      window.location.replace(origin + basePath);
-    }
-  </script>
-</head>
-
-<body>
-  <p>Redirecting...</p>
-</body>
-
+  <head>
+    <meta charset="utf-8">
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Перенаправление на index.html с сохранением пути
+      var redirectTo = window.location.protocol + "//" + window.location.host + "/index.html?redirect=" + encodeURIComponent(window.location.pathname + window.location.search + window.location.hash);
+      window.location.replace(redirectTo);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting...</p>
+  </body>
 </html>
