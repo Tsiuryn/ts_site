@@ -1,15 +1,31 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Redirecting...</title>
-    <script type="text/javascript">
-      // Перенаправление на index.html с сохранением пути
-      var redirectTo = window.location.protocol + "//" + window.location.host + "/index.html?redirect=" + encodeURIComponent(window.location.pathname + window.location.search + window.location.hash) + "/clicker";
-      window.location.replace(redirectTo);
-    </script>
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Redirecting...</title>
+  <script type="text/javascript">
+    // Базовый путь Flutter PWA
+    var basePath = "/clicker";
+
+    // Формируем URL с учётом basePath
+    var redirectTo =
+      window.location.protocol +
+      "//" +
+      window.location.host +
+      basePath +
+      "/index.html?redirect=" +
+      encodeURIComponent(
+        basePath + window.location.pathname + window.location.search + window.location.hash
+      );
+
+    // Делаем редирект
+    window.location.replace(redirectTo);
+  </script>
+</head>
+
+<body>
+  <p>Redirecting...</p>
+</body>
+
 </html>
