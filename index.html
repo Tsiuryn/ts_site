@@ -46,14 +46,14 @@
     }
 
     .loader {
-      border: 16px solid #f3f3f3;
+      border: 8px solid #f3f3f3;
       border-radius: 50%;
-      border-top: 16px solid blue;
-      border-right: 16px solid green;
-      border-bottom: 16px solid red;
-      border-left: 16px solid pink;
-      width: 120px;
-      height: 120px;
+      border-top: 8px solid blue;
+      border-right: 8px solid rgba(0, 128, 0, 0);
+      border-bottom: 8px solid red;
+      border-left: 8px solid rgba(255, 192, 203, 0);
+      width: 60px;
+      height: 60px;
       -webkit-animation: spin 2s linear infinite;
       animation: spin 2s linear infinite;
     }
@@ -85,29 +85,6 @@
     <div class="loader"></div>
   </div>
   <script src="flutter_bootstrap.js" async></script>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.17.1/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyBcrTWI0wSfqXOUvjhUdpLpT7oISN-OPsY",
-      authDomain: "sites-bf551.firebaseapp.com",
-      projectId: "sites-bf551",
-      storageBucket: "sites-bf551.appspot.com",
-      messagingSenderId: "21886807128",
-      appId: "1:21886807128:web:ac5091446c427945af6e2d",
-      measurementId: "G-H2VCHGKXQJ"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
 </body>
 
 </html>
