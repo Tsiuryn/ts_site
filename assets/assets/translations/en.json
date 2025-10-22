@@ -1,0 +1,51 @@
+{
+    "portfolio": {
+        "homeBannerTitle": "Crafting Cutting-Edge Technology: \nAlex's Development Journey",
+        "animatedText": {
+            "val1": "Technical skills: Expert in Flutter & Android, deep understanding.",
+            "val2": "Versatility: Seamless switch between Flutter & Android.",
+            "val3": "User-focused: Deliver best user experience, always improving.",
+            "val4": "Team player: Excellent communication, positive & helpful.",
+            "val5": "Commitment to quality: Dedicated to delivering high-quality apps.",
+            "val6": "Career growth: Continuous learning & growth, future leader."
+        },
+        "projects": {
+            "title": "My Projects",
+            "more": "Read more >>",
+            "googlePlay": "Google play",
+            "appStore": "App Store",
+            "norden": "Norden is a banking application designed to help bank employees track their sales performance. It is written in Flutter, a popular open-source framework for developing high-performance and visually appealing mobile applications. With Norden, bank employees can access real-time sales charts and analysis tools to monitor their performance and identify areas for improvement. The user-friendly interface makes it easy for employees to quickly view their sales data, track their progress over time, and receive valuable insights and recommendations. Whether you're a seasoned banking professional or just starting out, Norden is the ideal tool for boosting your sales performance and achieving your goals.",
+            "unibankLE": "Unibank for legal entities is a comprehensive banking application designed to streamline financial management for businesses. Built using Flutter, a cutting-edge framework for mobile application development, Unibank offers a seamless and intuitive experience for making various payments, submitting various applications, and monitoring transactions. With its user-friendly interface and powerful features, Unibank empowers legal entities to take control of their finances and make informed decisions. Whether you need to process payroll, pay bills, or manage cash flow, Unibank has you covered. Say goodbye to manual processes and hello to increased efficiency and peace of mind. With Unibank, managing your finances has never been easier.",
+            "unibankPI": "Unibank for individuals is a modern and dynamic banking application that provides users with an effortless way to manage their finances. Written in Flutter, a powerful platform for building visually stunning mobile applications, Unibank brings the power of banking directly to the palm of your hand. With its sleek design, intuitive interface, and smooth animations, Unibank makes managing your money a joy. Whether you need to pay bills, transfer funds, or keep track of your spending, Unibank makes it simple and stress-free. With real-time updates, secure transactions, and a wealth of tools at your fingertips, you'll have complete control over your finances. Say goodbye to long lines and complicated banking processes and say hello to Unibank – the future of banking, designed with you in mind.",
+            "unipark": "",
+            "safeStorage": "The Storage App is a sophisticated and secure solution for managing your sensitive information. Built using the Flutter SDK, the Storage App provides a sleek and intuitive interface for storing your confidential data. With its encrypted database stored directly on your device, you can be confident that your passwords, personal information, and other sensitive details are safe from prying eyes. Whether you need to keep track of your financial information, store your passport details, or simply keep track of your login credentials, the Storage App makes it easy to do so with its user-friendly design. The Storage App is your personal digital safe, providing peace of mind knowing that your confidential information is protected and always accessible. Experience the ease and security of managing your sensitive information with the Storage App.",
+            "formGenerator": "The Form Generator library is a powerful and versatile tool for creating custom forms for a wide range of purposes. Written in Kotlin Multiplatform, this library generates the core part of the form in both Android and iOS, making it easy to create forms that work seamlessly across multiple platforms. With the Form Generator, you can create forms for obtaining loans, conducting surveys, making purchases, and much more. Whether you need to gather information from customers, employees, or partners, the Form Generator makes it simple and efficient. The library's user-friendly interface allows you to design and customize your forms with ease, so you can quickly and easily gather the information you need. The Form Generator is the perfect solution for businesses and organizations of all sizes looking to streamline their data collection and management processes. Get started with the Form Generator today and see how it can help you simplify your workflow and achieve your goals.",
+            "fxPro": "The FxPro app is a powerful and comprehensive solution for active traders, designed to provide you with all the tools you need to succeed in the fast-paced world of trading. Built using the Android SDK, the FxPro app offers a smooth and intuitive user experience that makes it easy to manage your trades and stay ahead of the market. With the exclusive FxPro trading platform, you'll have access to real-time charts and analytics, expert insights, and up-to-date news and analysis, all designed to help you make informed decisions and maximize your profits. Whether you're an experienced trader or just starting out, the FxPro app has everything you need to succeed. So why wait? Download the FxPro app today and start taking your trading to the next level!"
+        },
+        "myInfo": {
+            "name":"Tyurin Alexandr",
+            "position":"Flutter Developer"
+        },
+        "recommendations":{
+            "title":"Recommendations",
+            "firstName":"Evgeniy Butov",
+            "firstRec": " Alexander is a highly skilled and knowledgeable Flutter developer who is passionate about building innovative and user-friendly mobile apps. He has a deep understanding of the Flutter framework and the Dart programming language, and is always up-to-date with the latest developments in the field. \nIn his work, Alexander demonstrates a strong attention to detail and a commitment to delivering high-quality results. He is a creative and critical thinker, able to quickly identify and solve complex problems. He also has excellent communication skills and is a strong team player, making him a valuable asset to any project. \nAlexander is a talented and dedicated professional who consistently delivers outstanding results.",
+            "secondName": "Timofey Kovalenko",
+            "secondRec": "One area where Alex particularly shines is his versatility and ability to switch seamlessly between Flutter and Kotlin/Android development. This is a rare and valuable skill, and it makes him a valuable asset to any team. He approaches each project with a creative and solution-focused mindset, always looking for ways to improve the user experience. \nIn terms of teamwork, Alex is a pleasure to work with. He has excellent communication skills and is always willing to help his colleagues. His positive and friendly attitude makes him a valuable member of the team, and his sense of humor is always a welcome addition to the workplace. \nI feel that Alex is a top-notch Flutter and Kotlin/Android developer who is dedicated to delivering high-quality, innovative mobile apps. He is a true asset to any team and I have no doubt that he will continue to be a leader in the field for years to come.",
+            "thirdName":"Sergey Penkovsky",
+            "thirdRec":"Alex is an outstanding Flutter developer who brings a wealth of knowledge and experience to our team. He is a master of the Flutter framework and the Dart programming language, and consistently produces high-quality and innovative mobile apps. \nWhat sets Alex apart is his passion for his work. He approaches each project with creativity and a strong desire to create the best possible user experience. He is a critical thinker who is able to quickly identify and solve complex problems, and he always goes the extra mile to ensure that the apps he builds are polished and bug-free. \nAlex is also a great team player. He has excellent communication skills and is always willing to help his colleagues, whether it's with coding questions or just a friendly chat. His positive and friendly attitude makes him a pleasure to work with, and his sense of humor always lightens the mood on our team.\nOverall, Alex is an invaluable member of our team who consistently delivers excellent results."
+        },
+        "profile": {
+            "downloadCV": "Download CVs",
+            "residenceTitle": "Residence",
+            "cityTitle": "City",
+            "ageTitle": "Age",
+            "residence": "Belarus",
+            "city": "Minsk",
+            "age": "37",
+            "skillsTitle":"Skills",
+            "codingTitle": "Coding",
+            "knowledgeTitle": "Knowledges"
+        }
+    }
+}
